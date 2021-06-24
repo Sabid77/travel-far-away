@@ -1,0 +1,17 @@
+body
+{
+    text-align: center;
+}
+#col
+{   
+    margin-top: 15%;
+}
+#vehicles_img
+{
+    width: 200px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;    
+    padding: 10px;
+    border-radius: 10px;
+}

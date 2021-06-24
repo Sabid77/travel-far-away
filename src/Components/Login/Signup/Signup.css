@@ -1,0 +1,14 @@
+.form_section
+{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(224, 222, 221, 0.541);
+    width: 80%;
+    padding: 10px;
+}
+.form_section input 
+{
+    width: 90%;
+    padding: 5px;
+    margin: 10px 0;
+}

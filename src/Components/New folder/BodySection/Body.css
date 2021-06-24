@@ -1,0 +1,24 @@
+.cardContainer
+{
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card_section
+{
+    height: 150px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cardContainer
+    {
+       margin-top: 10px;
+    }
+  }

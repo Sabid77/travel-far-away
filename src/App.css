@@ -1,0 +1,40 @@
+/* For 2nd Page */
+.searchSection
+{
+    background-color: rgba(95, 158, 160, 0.589);
+    padding: 20px;
+    border-radius: 10px;
+}
+#searchBtn
+{
+    width: 100%;
+    color: whitesmoke;
+    background-color: #FF6E40;
+    margin: 10px 0 0 0;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;    
+}
+.searchSection input
+{
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    margin: 0;
+}
+.searchSection p
+{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 970px) {
+    body {
+        background-size: auto;
+        background-position: center;
+    }
+  }

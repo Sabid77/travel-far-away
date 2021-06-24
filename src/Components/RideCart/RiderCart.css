@@ -1,0 +1,26 @@
+.destination
+{
+    background-color: chocolate;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+.cartSec
+{
+    background-color: whitesmoke;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cartSec img 
+{
+    width: 50px;
+}
+#b_r
+{
+    border-right: 1px solid gray;
+    padding-right: 5px;
+}

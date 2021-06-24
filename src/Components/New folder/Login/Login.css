@@ -1,0 +1,95 @@
+/* Create Sing up Form */
+.login_form
+{
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(212, 218, 212, 0.555);
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+.login_form input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    outline: none;
+}
+.login_form button
+{
+    width: 100%;
+    text-align: center;
+    background-color: goldenrod;
+    outline: none;
+    border: none;
+    padding: 5px;
+    transition: 300ms;
+}
+.login_form button:hover
+{
+    background-color: rgb(173, 129, 16);
+}
+.login_form p
+{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+/* Sing up Section */
+.singUpSec
+{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+#facebook_login
+{
+    background-color: rgba(255, 255, 255, 0.411);
+    color: rgb(34, 32, 32);
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 2.5px;
+    width: 100%;
+} 
+#google_login
+{
+    background-color: rgba(255, 255, 255, 0.411);
+    color: rgb(34, 32, 32);
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 2.5px;
+    width: 100%;
+}
+
+#facebook_login p
+{
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+#google_login p
+{
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .login_form {
+        width: auto;
+    }
+    .singUpSec
+    {
+        width: 100%;
+    }
+
+  }
